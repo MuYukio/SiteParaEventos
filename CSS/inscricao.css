@@ -1,0 +1,59 @@
+.inscricao-page .form-section {
+    max-width: 600px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #fdfdfd;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .inscricao-page h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .inscricao-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inscricao-page label {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .inscricao-page input,
+  .inscricao-page select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 5px;
+  }
+  
+  .inscricao-page button {
+    margin-top: 2rem;
+  }
+  
+  /* Modal */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  }
+  

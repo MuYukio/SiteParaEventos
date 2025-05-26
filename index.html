@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página Inicial – Evento</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body class="home-page">
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-content">
+      
+      <a href="index.html" class="logo">
+        <img src="assets/image/logo para um site de eventos.png" alt="Logo do Evento">
+      </a>
+      <nav class="nav-buttons">
+        <a href="index.html" class="btn">Home</a>
+        <a href="/Pages/eventos.html" class="btn">Lista de Eventos</a>
+        <a href="/Pages/inscricao.html" class="btn">Inscrição</a>
+      </nav>
+    </div>
+  </header>
+
+  
+  <main class="container main-content">
+    <section class="carousel">
+      <button class="carousel-prev">&lt;</button>
+
+      <div class="carousel-slide">
+        <!-- Carousel item -->
+        <div class="carousel-item">
+          <div class="item-image" style="background-image: url('assets/image/um\ show\ fictício\ de\ rock.png');"></div>
+          <div class="item-info">
+            <h2>O maior show de rock da via lactea </h2>
+            <p>É roooooooooooock.</p>
+            <p class="event-date">Em <span id="countdown1"></span></p>
+            <a href="/Pages/eventos.html" class="btn">Saiba mais</a>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="item-image" style="background-image: url('assets/image/uma\ palestra\ de\ um\ cara\ super\ importante.png');"></div>
+          <div class="item-info">
+            <h2>Palestra do cara muito IMPORTANTE</h2>
+            <p>O maluco é muito IMPORTANTE</p>
+            <p class="event-date">Em <span id="countdown2"></span></p>
+            <a href="/Pages/eventos.html" class="btn">Saiba mais</a>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="item-image" style="background-image: url('assets/image/um\ evento\ de\ exposição\ de\ artes\ mostrando\ várias\ obras\ de\ arte.png');"></div>
+          <div class="item-info">
+            <h2>O show de artes muito interessante</h2>
+            <p>Muitas artes diferenciadas, A tal da Arte moderna.</p>
+            <p class="event-date">Em <span id="countdown3"></span></p>
+            <a href="/Pages/eventos.html" class="btn">Saiba mais</a>
+          </div>
+        </div>
+
+
+        
+      </div>
+
+      <button class="carousel-next">&gt;</button>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="about">
+        <h3>Sobre nós</h3>
+        <p>Organizadores do melhor evento da cidade.</p>
+      </div>
+      <div class="contacts">
+        <h3>Contatos</h3>
+        <p>email@evento.com</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

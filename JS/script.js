@@ -55,19 +55,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function mostrarModalSucesso() {
-    const modal = document.getElementById('success-modal');
-    modal.classList.remove('hidden');
+    document.getElementById('success-modal').classList.remove('hidden');
   }
   
   document.getElementById('close-modal')?.addEventListener('click', () => {
     document.getElementById('success-modal')?.classList.add('hidden');
-  });
-  
-  window.addEventListener('click', e => {
-    const modal = document.getElementById('success-modal');
-    if (e.target === modal) {
-      modal.classList.add('hidden');
-    }
   });
 
   // --- 2) CAROUSEL ---
